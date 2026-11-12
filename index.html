@@ -3,45 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sakshi Kumari | About Me</title>
+    <title>Sakshi Kumari | Frontend Developer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card">
-        <!-- Apni photo yahan laga lena -->
-        <img src="profile.jpeg" alt="Sakshi Kumari" class="profile-img">
+    <main class="page-wrapper">
         
-        <h1>Sakshi Kumari</h1>
-        <p class="tagline">B.Tech CSE (CGPA: 8.49) | Python & AI/ML Enthusiast</p>
-        
-        <p class="bio">
-            Hi! I'm a final-year Computer Science student at GITS, Udaipur. 
-            While my core expertise is in Python development, machine learning, and workflow automation, 
-            I am currently expanding my skill set into Frontend Development to build clean, intuitive user interfaces.
-        </p>
+        <!-- Hero / About Me Section -->
+        <header class="hero-section">
+            <span class="section-tag">About Me</span>
+            <div class="avatar-wrapper">
+                <img src="profile.jpeg" alt="Sakshi Kumari" class="profile-img">
+                <span class="status-dot" title="Open to Internships"></span>
+            </div>
+            <span class="greeting">Hello, I'm</span>
+            <h1>Sakshi Kumari</h1>
+            <p class="role-tag">Final-Year B.Tech CSE (CGPA: 8.49) • GITS, Udaipur</p>
+            
+            <p class="bio-text">
+                I build things that are smart under the hood and clean on the screen. 
+                With a background in Python, Machine Learning, and automation, I am currently 
+                focusing on Frontend Development to design intuitive, human-centric web experiences.
+            </p>
 
-        <div class="goals-section">
-            <h2>3 Things I Want to Learn in This Training</h2>
-            <div class="goal-list">
-                <div class="goal-item">
-                    <span class="goal-num">01</span>
-                    <p>Building responsive and modern layouts using <strong>CSS Flexbox and Grid</strong></p>
+            <div class="toolkit-row">
+                <span class="pill core">Python</span>
+                <span class="pill core">AI / ML</span>
+                <span class="pill core">Automation</span>
+                <span class="pill learn">HTML & CSS</span>
+                <span class="pill learn">JavaScript</span>
+            </div>
+
+            <div class="action-buttons">
+                <a href="https://github.com/SakshiKumari271" target="_blank" class="btn primary-btn">GitHub Profile ↗</a>
+                <a href="https://linkedin.com/in/sakshisingh271" target="_blank" class="btn secondary-btn">LinkedIn Profile ↗</a>
+            </div>
+        </header>
+
+
+        <div class="section-divider"></div>
+
+        
+        <section class="goals-section">
+            <h2>3 Things I Want to Master Next</h2>
+            <div class="minimal-list">
+                <div class="minimal-item">
+                    <span class="num">1</span>
+                    <p>Building responsive, modern layouts using <strong>CSS Flexbox & Grid</strong></p>
                 </div>
-                <div class="goal-item">
-                    <span class="goal-num">02</span>
-                    <p>Creating dynamic and interactive user interfaces with <strong>JavaScript</strong></p>
+                <div class="minimal-item">
+                    <span class="num">2</span>
+                    <p>Creating dynamic, interactive user interfaces with <strong>JavaScript</strong></p>
                 </div>
-                <div class="goal-item">
-                    <span class="goal-num">03</span>
-                    <p>Integrating frontend applications seamlessly with <strong>backend APIs</strong></p>
+                <div class="minimal-item">
+                    <span class="num">3</span>
+                    <p>Integrating frontend web applications seamlessly with <strong>backend APIs</strong></p>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="link-buttons">
-            <a href="https://github.com/SakshiKumari271" target="_blank" class="btn github-btn">GitHub Profile</a>
-            <a href="https://linkedin.com/in/sakshisingh271" target="_blank" class="btn linkedin-btn">LinkedIn Profile</a>
-        </div>
-    </div>
+    </main>
 </body>
 </html>
